@@ -1,0 +1,64 @@
+body{
+    font-family: 'ClashDisplay-Medium', monospace,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --text-main-color:rgb(255,85,85);
+    --text-main-light-color:rgb(243, 116, 116);
+    --font-family-bold:'ClashDisplay-Bold';
+}
+
+/* header */
+
+.home{
+    color: var(--text-main-color);
+}
+.home a:hover{
+    color: var(--text-main-light-color);
+}
+nav li{
+    margin:0px 14px;
+}
+
+nav li a:hover{
+    color: rgb(72, 71, 71);
+}
+
+.cloud{
+    z-index: -2;
+}
+
+/* section 2 */
+.feat{
+    color: var(--text-main-color);
+}
+
+/* section 4 */
+
+.img_icon{
+    background-color: var(--text-main-color);
+    width: 60px;
+    height: 60px;
+    text-align: center;    
+}
+
+/* section 5 */
+.bgmain{
+    background-color: var(--text-main-color);
+}
+
+/* footer */
+.parting input[type="text"]{
+    all: unset;
+    padding: 10px;
+}
+.parting input[type="text"]::placeholder{
+    color: gray;
+    padding-left:2px ;
+}
+.lineoflinear{
+    width: 80vw;
+    height: 1px;
+    background-image: linear-gradient(to right,rgb(177, 176, 176),gray,rgb(42, 41, 41),gray,rgb(177, 176, 176));
+    margin:100px auto 40px auto;
+}
