@@ -27,6 +27,9 @@ nav li a:hover{
 .cloud{
     z-index: -2;
 }
+.elementer li{
+    margin: 10px 0px;
+}
 
 /* section 2 */
 .feat{
